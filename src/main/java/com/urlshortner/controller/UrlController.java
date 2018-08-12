@@ -1,8 +1,8 @@
 package com.urlshortner.controller;
 
 import com.google.common.hash.Hashing;
-import com.yourl.controller.dto.ShortenUrlRequest;
-import com.yourl.service.IUrlStoreService;
+import com.urlshortner.controller.dto.ShortenUrlRequest;
+import com.urlshortner.service.IUrlStoreService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
